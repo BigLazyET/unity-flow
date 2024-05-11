@@ -1,0 +1,73 @@
+<mxfile host="Electron" modified="2024-05-10T08:59:34.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="9NNDIcbVM-n6rwWUnA3B" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="KIei5gy9RZfvalO3lB5-">
+    <mxGraphModel dx="2261" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6tGR6iu4hlNIWzZidaEZ-22" target="6tGR6iu4hlNIWzZidaEZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-27" value="订阅" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="6tGR6iu4hlNIWzZidaEZ-26">
+          <mxGeometry x="0.0207" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-22" value="所有需要订阅Game State Change的脚本都要将GameManager作为属性&lt;div&gt;&amp;nbsp;[SerializeField] private GameManager gameManager;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="590" y="130" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-1" value="OnGameState&lt;div&gt;Changed&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6tGR6iu4hlNIWzZidaEZ-3" target="6tGR6iu4hlNIWzZidaEZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-3" value="Game Manager&lt;div&gt;Script&lt;/div&gt;&lt;div&gt;(全局管理脚本)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6tGR6iu4hlNIWzZidaEZ-8" target="6tGR6iu4hlNIWzZidaEZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-5" value="通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=12;" vertex="1" connectable="0" parent="6tGR6iu4hlNIWzZidaEZ-4">
+          <mxGeometry x="0.0926" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6tGR6iu4hlNIWzZidaEZ-8" target="6tGR6iu4hlNIWzZidaEZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-7" value="设置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=12;" vertex="1" connectable="0" parent="6tGR6iu4hlNIWzZidaEZ-6">
+          <mxGeometry x="-0.0213" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-8" value="Game State 切换&lt;div&gt;(Gameplay/UI)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-11" value="ActionMapChanger&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Script&lt;/span&gt;&lt;div&gt;(切换当前Action Map)&lt;/div&gt;&lt;div&gt;playerInput.SwitchCurrentActionMap(&quot;UI/Gameplay&quot;)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="190" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6tGR6iu4hlNIWzZidaEZ-14" target="6tGR6iu4hlNIWzZidaEZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6tGR6iu4hlNIWzZidaEZ-14" target="6tGR6iu4hlNIWzZidaEZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-14" value="Time.timeScale" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-15" value="UI - 0" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-16" value="Gameplay - 1" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="480" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6tGR6iu4hlNIWzZidaEZ-20" target="6tGR6iu4hlNIWzZidaEZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6tGR6iu4hlNIWzZidaEZ-20" value="所有会导致Game State切换的脚本都要将GameManager作为属性&lt;div&gt;(比如切到库存页面，装备页面等)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;[SerializeField] private GameManager gameManager;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="220" width="200" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,158 @@
+<mxfile host="Electron" modified="2024-05-11T02:09:50.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="A3pw6I5wta6-RArS_i4L" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="FkE1v761iVMdHnmlcI_C">
+    <mxGraphModel dx="2200" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A-GMauDxcaeP0dt87HX1-1" value="Idle&lt;div&gt;Action Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-2" value="Move&lt;div&gt;Action Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-132" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-3" value="Check Move&lt;div&gt;Action Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-322" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-7" target="A-GMauDxcaeP0dt87HX1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-5" value="xInput &amp;amp;&amp;amp; !cInput" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A-GMauDxcaeP0dt87HX1-4">
+          <mxGeometry x="0.6952" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-7" target="A-GMauDxcaeP0dt87HX1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-7" value="Move&lt;div&gt;Sequencer Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-232" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-8" value="&lt;div&gt;Crouch Move&lt;/div&gt;&lt;div&gt;Action Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="188" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-9" value="Check Crouch Move&lt;div&gt;Action Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="18" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-13" target="A-GMauDxcaeP0dt87HX1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-11" value="xinput &amp;amp;&amp;amp; cInput" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A-GMauDxcaeP0dt87HX1-10">
+          <mxGeometry x="0.619" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-13" target="A-GMauDxcaeP0dt87HX1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-13" value="&lt;div&gt;Crouch Move&lt;/div&gt;&lt;div&gt;Sequencer Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="108" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-14" value="&lt;div&gt;Crouch Idle&lt;/div&gt;&lt;div&gt;Action Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-15" value="Check Crouch Idle&lt;div&gt;Action Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="348" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-19" target="A-GMauDxcaeP0dt87HX1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-17" value="!xinput &amp;amp;&amp;amp; !cInput" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A-GMauDxcaeP0dt87HX1-16">
+          <mxGeometry x="0.619" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-19" target="A-GMauDxcaeP0dt87HX1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-19" value="&lt;div&gt;Crouch Idle&lt;/div&gt;&lt;div&gt;Sequencer Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="438" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-20" target="A-GMauDxcaeP0dt87HX1-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-20" value="Grounded&lt;div&gt;Decorator Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="395" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-24" target="A-GMauDxcaeP0dt87HX1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-24" target="A-GMauDxcaeP0dt87HX1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-24" target="A-GMauDxcaeP0dt87HX1-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-24" value="Selector Node&lt;div&gt;or&lt;/div&gt;&lt;div&gt;Interrupt Selector Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.567;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-24" target="A-GMauDxcaeP0dt87HX1-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-26" value="&lt;div&gt;Hard Land&lt;br&gt;&lt;/div&gt;&lt;div&gt;Action Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="838" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-27" value="Check Hard Land&lt;div&gt;Action Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="668" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-31" target="A-GMauDxcaeP0dt87HX1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-29" value="grounded detected &amp;amp;&amp;amp;&lt;div&gt;yVel &amp;gt; thresh&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A-GMauDxcaeP0dt87HX1-28">
+          <mxGeometry x="0.619" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-31" target="A-GMauDxcaeP0dt87HX1-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-31" value="&lt;div&gt;Hard Land&lt;/div&gt;&lt;div&gt;Sequencer Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="758" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-32" value="&lt;div&gt;Land&lt;/div&gt;&lt;div&gt;Action Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1142" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-33" value="Check Land&lt;div&gt;Action Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="972" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-37" target="A-GMauDxcaeP0dt87HX1-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-35" value="grounded detected &amp;amp;&amp;amp;&lt;div&gt;yVel &amp;lt; thresh&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A-GMauDxcaeP0dt87HX1-34">
+          <mxGeometry x="0.619" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-37" target="A-GMauDxcaeP0dt87HX1-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-37" value="&lt;div&gt;Land&lt;/div&gt;&lt;div&gt;Sequencer Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.541;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-24" target="A-GMauDxcaeP0dt87HX1-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-40" target="A-GMauDxcaeP0dt87HX1-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-40" target="A-GMauDxcaeP0dt87HX1-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-40" target="A-GMauDxcaeP0dt87HX1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-40" value="Selector Node" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A-GMauDxcaeP0dt87HX1-41" target="A-GMauDxcaeP0dt87HX1-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-41" value="not Ablity Input&lt;div&gt;Decorator Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-GMauDxcaeP0dt87HX1-43" value="&lt;div&gt;Ability Input&lt;/div&gt;&lt;div&gt;Decorator Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="395" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
