@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-07-07T08:02:02.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="tqHTX8dxUayY91XcFBVx" version="22.1.2" type="device">
+<mxfile host="Electron" modified="2024-07-17T02:47:56.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="GJU0h-MnJ_s17WoqpWe5" version="24.2.5" type="device">
   <diagram name="第 1 页" id="lGHraHcWh0GdLuIry4LX">
-    <mxGraphModel dx="1828" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="2005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,10 +57,10 @@
         <mxCell id="8y38feYNPbBhc2Mxnbsc-2" value="Selector&lt;br&gt;Node" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="20" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dRRS9ncyxCazhDDXAtv3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8y38feYNPbBhc2Mxnbsc-3" target="dRRS9ncyxCazhDDXAtv3-2">
+        <mxCell id="dRRS9ncyxCazhDDXAtv3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8y38feYNPbBhc2Mxnbsc-3" target="dRRS9ncyxCazhDDXAtv3-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dRRS9ncyxCazhDDXAtv3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8y38feYNPbBhc2Mxnbsc-3" target="dRRS9ncyxCazhDDXAtv3-1">
+        <mxCell id="dRRS9ncyxCazhDDXAtv3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8y38feYNPbBhc2Mxnbsc-3" target="dRRS9ncyxCazhDDXAtv3-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8y38feYNPbBhc2Mxnbsc-3" value="Sequencer Node" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -126,8 +126,8 @@
         <mxCell id="8y38feYNPbBhc2Mxnbsc-109" value="InAir&lt;br&gt;Sequencer Node" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="-160" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8y38feYNPbBhc2Mxnbsc-110" value="InAir&lt;br&gt;Condition Node" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="20" width="100" height="40" as="geometry" />
+        <mxCell id="8y38feYNPbBhc2Mxnbsc-110" value="不需要这个判断！&lt;div&gt;InAir&lt;br&gt;Condition Node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="700" y="20" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8y38feYNPbBhc2Mxnbsc-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.57;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8y38feYNPbBhc2Mxnbsc-109" target="8y38feYNPbBhc2Mxnbsc-110" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -137,7 +137,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8y38feYNPbBhc2Mxnbsc-113" value="InAir" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=15;" parent="8y38feYNPbBhc2Mxnbsc-112" vertex="1" connectable="0">
+        <mxCell id="8y38feYNPbBhc2Mxnbsc-113" value="不再需要这个判断&lt;div&gt;前面不通自然就是InAir状态&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=15;" parent="8y38feYNPbBhc2Mxnbsc-112" vertex="1" connectable="0">
           <mxGeometry x="0.5999" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -145,10 +145,10 @@
         <mxCell id="8y38feYNPbBhc2Mxnbsc-117" value="Ability Input&lt;br&gt;Selector Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="956" y="20" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dRRS9ncyxCazhDDXAtv3-1" value="Ability Input&lt;br&gt;Selector Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="dRRS9ncyxCazhDDXAtv3-1" value="Ability Input&lt;br&gt;Selector Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-30" y="230" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dRRS9ncyxCazhDDXAtv3-2" value="Is Not Crouch&lt;br&gt;Condition Node" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRRS9ncyxCazhDDXAtv3-2" value="Is Not Crouch&lt;br&gt;Condition Node" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-180" y="230" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
